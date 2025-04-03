@@ -1,17 +1,16 @@
 const estudante = {
-    nome: 'José Silva',
-    idade: 32,
-    cpf: '12312312312',
-    turma: 'JavaScript',
-    bolsista: true,
-    telefones: ['551199999998', '551199999993']
+  nome: 'José Silva',
+  idade: 32,
+  cpf: '12312312312',
+  turma: 'JavaScript',
+  bolsista: true,
+  telefones: ['551199999998', '551199999993'],
 }
 
-estudante.endereço = {
-    rua: 'Rua Joseph Climber',
-    numero: '45',
-    complemento: 'apto 3'
+estudante.endereco = {
+  rua: 'Rua Joseph Climber',
+  numero: '45',
+  complemento: 'apto 43'
 }
 
-console.log(estudante.endereço.rua)
-
+console.log(estudante.endereco.rua);
